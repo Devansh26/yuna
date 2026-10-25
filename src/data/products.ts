@@ -95,6 +95,34 @@ export const products: Product[] = [
     origin: 'Kyoto, Japan',
     weight: '30 g / 60 g / 100 g',
   },
+  {
+    id: 'okumidori-matcha',
+    slug: 'okumidori-matcha',
+    name: 'Okumidori Single-Origin Matcha',
+    shortDescription: 'Organic, single-cultivar first-harvest matcha. Deep umami, vibrant colour, zero bitterness.',
+    description:
+      'Crafted from the Okumidori cultivar — shade-grown and hand-picked in a single first-flush harvest in Kagoshima. Certified organic, stone-ground in small batches. Noticeably deeper green than conventional ceremonial grades, with a rich, sustained umami and a clean, sweet finish.',
+    category: 'matcha',
+    productType: 'powder',
+    images: [
+      { src: '/images/products/okumidori-matcha-1.svg', alt: 'Okumidori single-cultivar matcha premium tin' },
+    ],
+    variants: [
+      { id: 'ok-30g', name: '30 g', price: 169000, sku: 'YUN-OK-30', available: true, inventory: 30 },
+      { id: 'ok-60g', name: '60 g', price: 299000, sku: 'YUN-OK-60', available: true, inventory: 15 },
+    ],
+    tags: ['matcha', 'ceremonial', 'organic', 'single-cultivar', 'okumidori', 'kagoshima', 'premium'],
+    featured: true,
+    newArrival: true,
+    flavourNotes: ['Deep umami', 'Vegetal sweetness', 'Silky texture', 'Clean finish'],
+    ingredients: 'Certified organic Okumidori tencha (Camellia sinensis), single cultivar, first harvest, Kagoshima, Japan.',
+    preparationInstructions:
+      'Sift 1.5 g into a warmed bowl. Add 70 ml water at 75–80 °C. Whisk in a brisk W motion until frothy. Drink immediately.',
+    storageGuidance: 'Seal after opening. Refrigerate for best results. Use within 2 months.',
+    relatedProductSlugs: ['ceremonial-matcha', 'bamboo-chasen', 'matcha-bowl'],
+    origin: 'Kagoshima, Japan',
+    weight: '30 g / 60 g',
+  },
 
   // ── BLENDS ──────────────────────────────────────────────────────────────────
   {
@@ -176,6 +204,60 @@ export const products: Product[] = [
     storageGuidance: 'Store sealed in a cool, dark place. Use within 5 months.',
     relatedProductSlugs: ['hojicha-powder', 'matcha-latte-blend'],
     weight: '150 g',
+  },
+  {
+    id: 'yuzu-matcha',
+    slug: 'yuzu-matcha',
+    name: 'Yuzu Matcha',
+    shortDescription: 'Ceremonial matcha with sun-dried yuzu peel. Bright, citrusy, and refreshing.',
+    description:
+      'A vibrant pairing of ceremonial-grade matcha and Japanese yuzu — the aromatic citrus prized across Kyoto kitchens. Served iced with sparkling water or oat milk, it drinks like summer. No artificial flavour. The yuzu is slow-dried from whole fruit, so the peel\'s floral brightness comes through cleanly.',
+    category: 'blends',
+    productType: 'blend',
+    images: [
+      { src: '/images/products/yuzu-matcha-1.svg', alt: 'Yuzu matcha iced drink with a fresh yuzu slice' },
+    ],
+    variants: [
+      { id: 'ym-30g', name: '30 g', price: 159000, sku: 'YUN-YM-30', available: true, inventory: 50 },
+      { id: 'ym-60g', name: '60 g', price: 289000, sku: 'YUN-YM-60', available: true, inventory: 25 },
+    ],
+    tags: ['blend', 'yuzu', 'citrus', 'matcha', 'iced', 'floral', 'new'],
+    featured: true,
+    newArrival: true,
+    flavourNotes: ['Citrus', 'Yuzu floral', 'Bright matcha', 'Clean finish'],
+    ingredients: 'Ceremonial matcha (Camellia sinensis), sun-dried yuzu peel powder. No added sugar.',
+    preparationInstructions:
+      'Whisk 2 g in 40 ml water at 80 °C. Pour over ice. Top with cold sparkling water or oat milk.',
+    storageGuidance: 'Seal tightly and store away from sunlight. Use within 4 months.',
+    relatedProductSlugs: ['ceremonial-matcha', 'strawberry-matcha-blend', 'flavour-trio'],
+    weight: '30 g / 60 g',
+  },
+  {
+    id: 'chocolate-matcha',
+    slug: 'chocolate-matcha',
+    name: 'Chocolate Matcha',
+    shortDescription: 'Ceremonial matcha with raw cacao. Earthy, slightly bitter, and deeply satisfying.',
+    description:
+      'The unexpected pairing that works. Stone-ground ceremonial matcha meets cold-pressed raw cacao powder for a blend that is complex, slightly bitter, and naturally energising. Serve iced for layers of green and chocolate, or hot for a comforting alternative to a mocha.',
+    category: 'blends',
+    productType: 'blend',
+    images: [
+      { src: '/images/products/chocolate-matcha-1.svg', alt: 'Chocolate matcha layered iced drink' },
+    ],
+    variants: [
+      { id: 'cm-30g-choc', name: '30 g', price: 149000, sku: 'YUN-CHM-30', available: true, inventory: 45 },
+      { id: 'cm-60g-choc', name: '60 g', price: 269000, sku: 'YUN-CHM-60', available: true, inventory: 20 },
+    ],
+    tags: ['blend', 'chocolate', 'cacao', 'matcha', 'iced', 'mocha', 'new'],
+    featured: false,
+    newArrival: true,
+    flavourNotes: ['Dark cacao', 'Earthy matcha', 'Slight bitterness', 'Rich finish'],
+    ingredients: 'Ceremonial matcha (Camellia sinensis), raw cacao powder. No added sugar.',
+    preparationInstructions:
+      'Whisk 2 g in 40 ml warm water at 80 °C. Pour over ice and top with oat milk. Or blend with warm milk for a hot mocha.',
+    storageGuidance: 'Seal tightly. Store in a cool, dark place. Use within 4 months.',
+    relatedProductSlugs: ['ceremonial-matcha', 'yuzu-matcha', 'flavour-trio'],
+    weight: '30 g / 60 g',
   },
 
   // ── ACCESSORIES ─────────────────────────────────────────────────────────────
@@ -327,6 +409,35 @@ export const products: Product[] = [
     featured: true,
     bundleComponents: ['ceremonial-matcha', 'hojicha-powder'],
     relatedProductSlugs: ['ceremonial-matcha', 'hojicha-powder', 'matcha-starter-kit'],
+  },
+  {
+    id: 'flavour-trio',
+    slug: 'flavour-trio',
+    name: 'The Flavour Trio',
+    shortDescription: 'Strawberry, Yuzu, and Chocolate Matcha — three blends, one beautiful gift.',
+    description:
+      "Three of YUNA's most-loved flavour blends, each in a 30 g tin, presented in a gift box. Strawberry Matcha for the sweet ritual, Yuzu Matcha for the bright morning, and Chocolate Matcha for the comforting evening. A perfect introduction to flavoured matcha — and the ideal gift for anyone curious to explore.",
+    category: 'gifts',
+    productType: 'kit',
+    images: [
+      { src: '/images/products/flavour-trio-1.svg', alt: 'Three YUNA matcha blend tins in a gift box — strawberry, yuzu, chocolate' },
+    ],
+    variants: [
+      {
+        id: 'ft-1',
+        name: 'Flavour Trio',
+        price: 399000,
+        compareAtPrice: 467000,
+        sku: 'YUN-FT-1',
+        available: true,
+        inventory: 20,
+      },
+    ],
+    tags: ['gift', 'trio', 'blend', 'strawberry', 'yuzu', 'chocolate', 'matcha', 'new'],
+    featured: true,
+    newArrival: true,
+    bundleComponents: ['strawberry-matcha-blend', 'yuzu-matcha', 'chocolate-matcha'],
+    relatedProductSlugs: ['strawberry-matcha-blend', 'yuzu-matcha', 'chocolate-matcha'],
   },
 ];
 

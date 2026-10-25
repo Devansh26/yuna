@@ -1,0 +1,67 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#F0EDE4"/>
+      <stop offset="100%" stop-color="#D8D0C0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <!-- Kraft-style box base -->
+  <rect x="90" y="360" width="620" height="380" rx="6" fill="#C8A878" opacity="0.85"/>
+  <rect x="90" y="360" width="620" height="380" rx="6" fill="none" stroke="#A88050" stroke-width="2"/>
+  <rect x="106" y="376" width="588" height="348" rx="4" fill="#E8D8B8" opacity="0.9"/>
+
+  <!-- Left tin — Strawberry (pink) -->
+  <rect x="128" y="396" width="164" height="306" rx="6" fill="#C86878"/>
+  <rect x="128" y="396" width="164" height="52" rx="6" fill="#D98C98"/>
+  <rect x="144" y="468" width="132" height="180" rx="3" fill="#FBF0F4" opacity="0.94"/>
+  <!-- Strawberry icon on label -->
+  <ellipse cx="210" cy="506" rx="18" ry="15" fill="#E04050"/>
+  <path d="M192 499 Q210 486 228 499" fill="#C83040"/>
+  <path d="M206 488 Q209 474 215 487" fill="#4A8040"/>
+  <text x="210" y="540" font-family="Georgia, serif" font-size="8.5" fill="#6A1020" text-anchor="middle" letter-spacing="2">YUNA</text>
+  <text x="210" y="558" font-family="Georgia, serif" font-size="9" fill="#6A1020" text-anchor="middle">Strawberry</text>
+  <text x="210" y="572" font-family="Georgia, serif" font-size="9" fill="#6A1020" text-anchor="middle">Matcha</text>
+  <text x="210" y="596" font-family="'Inter', sans-serif" font-size="6.5" fill="#A04860" text-anchor="middle" letter-spacing="1.5">30G · BLEND</text>
+
+  <!-- Middle tin — Yuzu (yellow-green) -->
+  <rect x="318" y="396" width="164" height="306" rx="6" fill="#6A8A30"/>
+  <rect x="318" y="396" width="164" height="52" rx="6" fill="#8AAA50"/>
+  <rect x="334" y="468" width="132" height="180" rx="3" fill="#F8FBE8" opacity="0.94"/>
+  <!-- Yuzu circle icon -->
+  <circle cx="400" cy="506" rx="18" fill="#F0C830"/>
+  <circle cx="400" cy="506" rx="13" fill="#F4D844"/>
+  <line x1="400" y1="493" x2="400" y2="519" stroke="#D4A820" stroke-width="1.2" opacity="0.5"/>
+  <line x1="387" y1="506" x2="413" y2="506" stroke="#D4A820" stroke-width="1.2" opacity="0.5"/>
+  <text x="400" y="540" font-family="Georgia, serif" font-size="8.5" fill="#2A4010" text-anchor="middle" letter-spacing="2">YUNA</text>
+  <text x="400" y="558" font-family="Georgia, serif" font-size="9" fill="#2A4010" text-anchor="middle">Yuzu</text>
+  <text x="400" y="572" font-family="Georgia, serif" font-size="9" fill="#2A4010" text-anchor="middle">Matcha</text>
+  <text x="400" y="596" font-family="'Inter', sans-serif" font-size="6.5" fill="#4A6820" text-anchor="middle" letter-spacing="1.5">30G · BLEND</text>
+
+  <!-- Right tin — Chocolate (dark) -->
+  <rect x="508" y="396" width="164" height="306" rx="6" fill="#1C1208"/>
+  <rect x="508" y="396" width="164" height="52" rx="6" fill="#2E1C0C"/>
+  <rect x="524" y="468" width="132" height="180" rx="3" fill="#F8F0E8" opacity="0.94"/>
+  <!-- Cacao icon -->
+  <ellipse cx="590" cy="502" rx="16" ry="14" fill="#4A2808" opacity="0.8"/>
+  <ellipse cx="590" cy="506" rx="12" ry="10" fill="#3A1C08" opacity="0.9"/>
+  <ellipse cx="590" cy="502" rx="5" ry="4" fill="#5A7A38" opacity="0.6"/>
+  <text x="590" y="540" font-family="Georgia, serif" font-size="8.5" fill="#1C1208" text-anchor="middle" letter-spacing="2">YUNA</text>
+  <text x="590" y="558" font-family="Georgia, serif" font-size="9" fill="#1C1208" text-anchor="middle">Chocolate</text>
+  <text x="590" y="572" font-family="Georgia, serif" font-size="9" fill="#1C1208" text-anchor="middle">Matcha</text>
+  <text x="590" y="596" font-family="'Inter', sans-serif" font-size="6.5" fill="#4A3020" text-anchor="middle" letter-spacing="1.5">30G · BLEND</text>
+
+  <!-- Box lid -->
+  <rect x="84" y="272" width="632" height="100" rx="6" fill="#2A1E10" opacity="0.9"/>
+  <!-- Golden ribbon -->
+  <rect x="84" y="302" width="632" height="26" fill="#AA9068"/>
+  <text x="400" y="320" font-family="'Inter', sans-serif" font-size="9" fill="#F6F3EC" text-anchor="middle" letter-spacing="8">YUNA FLAVOUR TRIO</text>
+  <!-- Bow -->
+  <path d="M374 272 Q400 252 426 272 Q400 293 374 272Z" fill="#AA9068" opacity="0.8"/>
+  <path d="M374 272 Q354 252 374 234 Q400 252 374 272Z" fill="#AA9068" opacity="0.65"/>
+  <path d="M426 272 Q446 252 426 234 Q400 252 426 272Z" fill="#AA9068" opacity="0.65"/>
+  <circle cx="400" cy="268" r="11" fill="#C4AA7A"/>
+
+  <text x="400" y="870" font-family="'Inter', sans-serif" font-size="11" fill="#292925" text-anchor="middle" letter-spacing="6" opacity="0.4">YUNA</text>
+  <text x="400" y="892" font-family="'Inter', sans-serif" font-size="8" fill="#AA9068" text-anchor="middle" letter-spacing="3" opacity="0.5">THE FLAVOUR TRIO · 3 × 30G</text>
+</svg>
