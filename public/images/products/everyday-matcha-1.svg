@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#E8F0DC"/>
+      <stop offset="100%" stop-color="#C5D4A8"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <!-- surface -->
+  <rect x="0" y="680" width="800" height="320" fill="#E4DDD0" opacity="0.5"/>
+  <!-- bag / pouch shape -->
+  <rect x="240" y="180" width="320" height="420" rx="12" fill="#343D2D"/>
+  <rect x="240" y="180" width="320" height="70" rx="12" fill="#4A5530"/>
+  <!-- label -->
+  <rect x="264" y="298" width="272" height="180" rx="4" fill="#F6F3EC" opacity="0.95"/>
+  <text x="400" y="362" font-family="Georgia, serif" font-size="11" fill="#343D2D" text-anchor="middle" letter-spacing="4">YUNA</text>
+  <text x="400" y="390" font-family="Georgia, serif" font-size="16" fill="#343D2D" text-anchor="middle" letter-spacing="2">Everyday</text>
+  <text x="400" y="412" font-family="Georgia, serif" font-size="16" fill="#343D2D" text-anchor="middle" letter-spacing="2">Matcha</text>
+  <text x="400" y="444" font-family="'Inter', sans-serif" font-size="8" fill="#626A43" text-anchor="middle" letter-spacing="2">KAGOSHIMA · JAPAN</text>
+  <!-- scoop -->
+  <ellipse cx="580" cy="580" rx="35" ry="20" fill="#8EA56A" opacity="0.9"/>
+  <rect x="570" y="560" width="80" height="8" rx="4" fill="#6B8050" transform="rotate(25,580,570)"/>
+  <!-- powder pile -->
+  <ellipse cx="400" cy="700" rx="130" ry="35" fill="#7D9460" opacity="0.7"/>
+  <ellipse cx="400" cy="695" rx="110" ry="28" fill="#8EA56A" opacity="0.8"/>
+  <!-- shadow -->
+  <ellipse cx="400" cy="630" rx="175" ry="22" fill="#343D2D" opacity="0.1"/>
+  <text x="400" y="870" font-family="'Inter', sans-serif" font-size="11" fill="#292925" text-anchor="middle" letter-spacing="6" opacity="0.4">YUNA</text>
+  <text x="400" y="892" font-family="'Inter', sans-serif" font-size="8" fill="#626A43" text-anchor="middle" letter-spacing="3" opacity="0.5">EVERYDAY MATCHA</text>
+</svg>

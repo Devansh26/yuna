@@ -1,0 +1,36 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#F8E4EC"/>
+      <stop offset="100%" stop-color="#E8C4D0"/>
+    </radialGradient>
+    <linearGradient id="tin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B86878"/>
+      <stop offset="50%" stop-color="#D98C98"/>
+      <stop offset="100%" stop-color="#B86878"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect x="0" y="660" width="800" height="340" fill="#ECD4DC" opacity="0.5"/>
+  <ellipse cx="400" cy="666" rx="195" ry="22" fill="#A04860" opacity="0.1"/>
+  <rect x="255" y="200" width="290" height="440" rx="8" fill="url(#tin)"/>
+  <rect x="248" y="192" width="304" height="58" rx="6" fill="#C47888"/>
+  <rect x="255" y="240" width="290" height="10" fill="#A04860" opacity="0.3"/>
+  <rect x="280" y="300" width="240" height="220" rx="4" fill="#FBF0F4" opacity="0.95"/>
+  <!-- Strawberry illustration -->
+  <ellipse cx="400" cy="355" rx="25" ry="22" fill="#E04050"/>
+  <path d="M375 345 Q400 328 425 345" fill="#C03040"/>
+  <path d="M395 332 Q398 314 405 330" fill="#4A8040"/>
+  <path d="M386 330 Q382 312 392 328" fill="#4A8040"/>
+  <!-- seeds -->
+  <ellipse cx="392" cy="352" rx="2.5" ry="2" fill="#FCFAF6" opacity="0.7"/>
+  <ellipse cx="403" cy="347" rx="2.5" ry="2" fill="#FCFAF6" opacity="0.7"/>
+  <ellipse cx="412" cy="358" rx="2.5" ry="2" fill="#FCFAF6" opacity="0.7"/>
+  <text x="400" y="408" font-family="Georgia, serif" font-size="10" fill="#6A1020" text-anchor="middle" letter-spacing="5">YUNA</text>
+  <line x1="310" y1="418" x2="490" y2="418" stroke="#D98C98" stroke-width="0.75"/>
+  <text x="400" y="438" font-family="Georgia, serif" font-size="16" fill="#6A1020" text-anchor="middle" letter-spacing="1">Strawberry</text>
+  <text x="400" y="460" font-family="Georgia, serif" font-size="16" fill="#6A1020" text-anchor="middle" letter-spacing="1">Matcha</text>
+  <line x1="310" y1="472" x2="490" y2="472" stroke="#D98C98" stroke-width="0.75"/>
+  <text x="400" y="490" font-family="'Inter', sans-serif" font-size="8" fill="#A04860" text-anchor="middle" letter-spacing="2">MATCHA BLEND · 50G</text>
+  <text x="400" y="870" font-family="'Inter', sans-serif" font-size="11" fill="#292925" text-anchor="middle" letter-spacing="6" opacity="0.4">YUNA</text>
+</svg>

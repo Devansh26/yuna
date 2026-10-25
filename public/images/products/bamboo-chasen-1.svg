@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#F0EDE4"/>
+      <stop offset="100%" stop-color="#D8D0C0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect x="0" y="700" width="800" height="300" fill="#C8C0B0" opacity="0.4"/>
+  <!-- Shadow -->
+  <ellipse cx="400" cy="706" rx="80" ry="14" fill="#4A3820" opacity="0.12"/>
+  <!-- Chasen handle -->
+  <rect x="376" y="440" width="48" height="260" rx="12" fill="#C8A870"/>
+  <rect x="380" y="444" width="40" height="252" rx="10" fill="#D4B880"/>
+  <!-- Bamboo rings on handle -->
+  <rect x="376" y="500" width="48" height="6" rx="2" fill="#B89060" opacity="0.6"/>
+  <rect x="376" y="560" width="48" height="6" rx="2" fill="#B89060" opacity="0.6"/>
+  <rect x="376" y="620" width="48" height="6" rx="2" fill="#B89060" opacity="0.6"/>
+  <!-- Handle top ring -->
+  <ellipse cx="400" cy="452" rx="24" ry="8" fill="#C0A060"/>
+  <!-- Tines base -->
+  <ellipse cx="400" cy="440" rx="50" ry="14" fill="#B89060"/>
+  <!-- Individual tines - bamboo whisk prongs -->
+  <g opacity="0.85">
+    <path d="M370 438 Q352 380 340 240" fill="none" stroke="#C8A870" stroke-width="2.5"/>
+    <path d="M375 437 Q358 376 348 230" fill="none" stroke="#D4B880" stroke-width="2"/>
+    <path d="M381 436 Q365 372 358 225" fill="none" stroke="#C8A870" stroke-width="2.5"/>
+    <path d="M387 435 Q373 368 368 220" fill="none" stroke="#D4B880" stroke-width="2"/>
+    <path d="M393 435 Q381 365 378 218" fill="none" stroke="#C8A870" stroke-width="2.5"/>
+    <path d="M400 434 Q390 362 390 216" fill="none" stroke="#D4B880" stroke-width="2"/>
+    <path d="M407 435 Q398 365 402 218" fill="none" stroke="#C8A870" stroke-width="2.5"/>
+    <path d="M413 435 Q422 368 412 220" fill="none" stroke="#D4B880" stroke-width="2"/>
+    <path d="M419 436 Q430 372 422 225" fill="none" stroke="#C8A870" stroke-width="2.5"/>
+    <path d="M425 437 Q438 376 432 230" fill="none" stroke="#D4B880" stroke-width="2"/>
+    <path d="M430 438 Q444 380 440 240" fill="none" stroke="#C8A870" stroke-width="2.5"/>
+  </g>
+  <!-- Outer tines -->
+  <g opacity="0.65">
+    <path d="M360 440 Q336 385 325 250" fill="none" stroke="#B89060" stroke-width="2"/>
+    <path d="M440 440 Q464 385 475 250" fill="none" stroke="#B89060" stroke-width="2"/>
+  </g>
+  <!-- Top of tines gathering -->
+  <path d="M338 248 Q400 218 462 248" fill="none" stroke="#B89060" stroke-width="2" opacity="0.5"/>
+  <!-- Matcha dust on tines -->
+  <ellipse cx="395" cy="270" rx="60" ry="14" fill="#7D8A5A" opacity="0.2"/>
+  <text x="400" y="870" font-family="'Inter', sans-serif" font-size="11" fill="#292925" text-anchor="middle" letter-spacing="6" opacity="0.4">YUNA</text>
+  <text x="400" y="892" font-family="'Inter', sans-serif" font-size="8" fill="#AA9068" text-anchor="middle" letter-spacing="3" opacity="0.6">BAMBOO CHASEN · NARA</text>
+</svg>

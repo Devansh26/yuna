@@ -1,0 +1,34 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#E8F4DC"/>
+      <stop offset="100%" stop-color="#B8CCA0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="0" y="420" width="800" height="180" fill="#C8D8B0" opacity="0.4"/>
+  <!-- Large matcha bowl -->
+  <ellipse cx="400" cy="330" rx="320" ry="96" fill="#FCFAF6" opacity="0.9"/>
+  <path d="M80 330 Q100 510 400 522 Q700 510 720 330 Z" fill="#EDE8DC"/>
+  <ellipse cx="400" cy="330" rx="320" ry="96" fill="#F6F3EC"/>
+  <!-- Matcha surface inside -->
+  <ellipse cx="400" cy="312" rx="272" ry="76" fill="#7D8A5A" opacity="0.88"/>
+  <ellipse cx="400" cy="305" rx="248" ry="66" fill="#8EA56A"/>
+  <!-- Foam swirls -->
+  <path d="M360 300 Q380 285 420 300 Q400 318 360 300Z" fill="#FCFAF6" opacity="0.4"/>
+  <circle cx="400" cy="296" r="24" fill="#9AB872" opacity="0.5"/>
+  <!-- Rim -->
+  <ellipse cx="400" cy="330" rx="320" ry="96" fill="none" stroke="#FCFAF6" stroke-width="3" opacity="0.5"/>
+  <!-- Whisk visible -->
+  <g transform="translate(580,220) rotate(15)">
+    <rect x="-18" y="0" width="36" height="120" rx="10" fill="#D4B880" opacity="0.9"/>
+    <path d="M-16 0 Q-22 -40 -26 -70" fill="none" stroke="#C8A870" stroke-width="2"/>
+    <path d="M-8 0 Q-12 -42 -14 -72" fill="none" stroke="#D4B880" stroke-width="2"/>
+    <path d="M0 0 Q0 -44 0 -74" fill="none" stroke="#C8A870" stroke-width="2"/>
+    <path d="M8 0 Q12 -42 14 -72" fill="none" stroke="#D4B880" stroke-width="2"/>
+    <path d="M16 0 Q22 -40 26 -70" fill="none" stroke="#C8A870" stroke-width="2"/>
+  </g>
+  <!-- Title text -->
+  <text x="400" y="560" font-family="Georgia, serif" font-size="28" fill="#292925" text-anchor="middle" letter-spacing="8" opacity="0.9">MATCHA</text>
+  <line x1="250" y1="570" x2="550" y2="570" stroke="#626A43" stroke-width="1" opacity="0.5"/>
+</svg>

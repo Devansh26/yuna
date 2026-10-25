@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#F0EDE4"/>
+      <stop offset="100%" stop-color="#D4CCB8"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="0" y="430" width="800" height="170" fill="#C8C0B0" opacity="0.38"/>
+  <!-- Ceramic bowl (left) -->
+  <ellipse cx="260" cy="360" rx="200" ry="58" fill="#F6F3EC" opacity="0.9"/>
+  <path d="M60 360 Q74 476 260 484 Q446 476 460 360 Z" fill="#EDE8DC"/>
+  <ellipse cx="260" cy="360" rx="200" ry="58" fill="#F0EDE6"/>
+  <ellipse cx="260" cy="350" rx="168" ry="48" fill="#E8E4DC"/>
+  <ellipse cx="260" cy="344" rx="68" ry="20" fill="#8EA56A" opacity="0.2"/>
+  <!-- Bamboo chasen (right) -->
+  <rect x="566" y="280" width="36" height="160" rx="10" fill="#D4B880"/>
+  <g opacity="0.8">
+    <path d="M556 280 Q548 240 544 200" fill="none" stroke="#C8A870" stroke-width="2"/>
+    <path d="M562 278 Q556 236 554 194" fill="none" stroke="#D4B880" stroke-width="2"/>
+    <path d="M569 277 Q566 234 566 192" fill="none" stroke="#C8A870" stroke-width="2"/>
+    <path d="M576 278 Q576 236 578 194" fill="none" stroke="#D4B880" stroke-width="2"/>
+    <path d="M582 279 Q586 237 590 200" fill="none" stroke="#C8A870" stroke-width="2"/>
+    <path d="M588 280 Q596 242 600 204" fill="none" stroke="#D4B880" stroke-width="2"/>
+    <path d="M594 281 Q605 244 610 208" fill="none" stroke="#C8A870" stroke-width="2"/>
+  </g>
+  <!-- Ring band -->
+  <rect x="556" y="324" width="56" height="6" rx="2" fill="#B89060" opacity="0.6"/>
+  <rect x="556" y="360" width="56" height="6" rx="2" fill="#B89060" opacity="0.5"/>
+  <!-- Tin (center) -->
+  <rect x="336" y="240" width="128" height="200" rx="5" fill="#343D2D"/>
+  <rect x="336" y="240" width="128" height="38" rx="5" fill="#4A5530"/>
+  <rect x="350" y="296" width="100" height="100" rx="3" fill="#F6F3EC" opacity="0.92"/>
+  <text x="400" y="342" font-family="Georgia, serif" font-size="9" fill="#343D2D" text-anchor="middle" letter-spacing="3">YUNA</text>
+  <text x="400" y="360" font-family="Georgia, serif" font-size="8" fill="#343D2D" text-anchor="middle" letter-spacing="1">Matcha</text>
+  <text x="400" y="374" font-family="Georgia, serif" font-size="8" fill="#343D2D" text-anchor="middle" letter-spacing="1">Powder</text>
+  <text x="400" y="560" font-family="Georgia, serif" font-size="28" fill="#292925" text-anchor="middle" letter-spacing="6" opacity="0.9">ACCESSORIES</text>
+  <line x1="200" y1="570" x2="600" y2="570" stroke="#AA9068" stroke-width="1" opacity="0.5"/>
+</svg>

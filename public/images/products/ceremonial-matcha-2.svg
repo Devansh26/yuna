@@ -1,0 +1,41 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="55%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#EDF4E4"/>
+      <stop offset="100%" stop-color="#C8D8B0"/>
+    </radialGradient>
+    <linearGradient id="tin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2A3320"/>
+      <stop offset="50%" stop-color="#3D4D2E"/>
+      <stop offset="100%" stop-color="#2A3320"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <!-- Linen surface -->
+  <rect x="0" y="660" width="800" height="340" fill="#E8E0D0" opacity="0.55"/>
+  <!-- Drop shadow -->
+  <ellipse cx="400" cy="666" rx="195" ry="22" fill="#343D2D" opacity="0.14"/>
+  <!-- Tin body -->
+  <rect x="255" y="200" width="290" height="440" rx="8" fill="url(#tin)"/>
+  <!-- Tin lid -->
+  <rect x="248" y="192" width="304" height="60" rx="6" fill="#4A5C32"/>
+  <rect x="255" y="242" width="290" height="10" fill="#343D2D" opacity="0.4"/>
+  <!-- Label -->
+  <rect x="280" y="300" width="240" height="220" rx="4" fill="#F6F3EC" opacity="0.94"/>
+  <!-- botanical line art (simple leaf shapes) -->
+  <path d="M340 340 Q360 310 380 335 Q360 360 340 340Z" fill="#626A43" opacity="0.35"/>
+  <path d="M420 335 Q440 308 460 332 Q440 358 420 335Z" fill="#626A43" opacity="0.3"/>
+  <line x1="360" y1="340" x2="360" y2="360" stroke="#626A43" stroke-width="1" opacity="0.3"/>
+  <line x1="440" y1="335" x2="440" y2="355" stroke="#626A43" stroke-width="1" opacity="0.3"/>
+  <!-- Text on label -->
+  <text x="400" y="392" font-family="Georgia, serif" font-size="10" fill="#343D2D" text-anchor="middle" letter-spacing="5">YUNA</text>
+  <line x1="310" y1="402" x2="490" y2="402" stroke="#AA9068" stroke-width="0.75"/>
+  <text x="400" y="422" font-family="Georgia, serif" font-size="18" fill="#343D2D" text-anchor="middle" letter-spacing="1">Ceremonial</text>
+  <text x="400" y="444" font-family="Georgia, serif" font-size="18" fill="#343D2D" text-anchor="middle" letter-spacing="1">Matcha</text>
+  <line x1="310" y1="456" x2="490" y2="456" stroke="#AA9068" stroke-width="0.75"/>
+  <text x="400" y="474" font-family="'Inter', sans-serif" font-size="8" fill="#626A43" text-anchor="middle" letter-spacing="2">UJI · KYOTO · 30G</text>
+  <text x="400" y="494" font-family="'Inter', sans-serif" font-size="7.5" fill="#343D2D" text-anchor="middle" letter-spacing="1" opacity="0.6">FIRST HARVEST · SHADE-GROWN</text>
+  <!-- Bottom text on tin -->
+  <text x="400" y="620" font-family="'Inter', sans-serif" font-size="8" fill="#9DB87A" text-anchor="middle" letter-spacing="3" opacity="0.7">CEREMONIAL GRADE</text>
+  <text x="400" y="870" font-family="'Inter', sans-serif" font-size="11" fill="#292925" text-anchor="middle" letter-spacing="6" opacity="0.4">YUNA</text>
+</svg>

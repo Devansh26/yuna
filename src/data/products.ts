@@ -15,8 +15,8 @@ export const products: Product[] = [
     category: 'matcha',
     productType: 'powder',
     images: [
-      { src: '/images/products/ceremonial-matcha-1.jpg', alt: 'Ceremonial matcha powder in a pale ceramic bowl' },
-      { src: '/images/products/ceremonial-matcha-2.jpg', alt: 'Ceremonial matcha tin against linen backdrop' },
+      { src: '/images/products/ceremonial-matcha-1.svg', alt: 'Ceremonial matcha powder in a pale ceramic bowl' },
+      { src: '/images/products/ceremonial-matcha-2.svg', alt: 'Ceremonial matcha tin against linen backdrop' },
     ],
     variants: [
       { id: 'cm-30g', name: '30 g', price: 129000, sku: 'YUN-CM-30', available: true, inventory: 50 },
@@ -45,7 +45,7 @@ export const products: Product[] = [
     category: 'matcha',
     productType: 'powder',
     images: [
-      { src: '/images/products/everyday-matcha-1.jpg', alt: 'Everyday matcha powder with a small ceramic scoop' },
+      { src: '/images/products/everyday-matcha-1.svg', alt: 'Everyday matcha powder with a small ceramic scoop' },
     ],
     variants: [
       { id: 'em-50g', name: '50 g', price: 79000, sku: 'YUN-EM-50', available: true, inventory: 80 },
@@ -75,8 +75,8 @@ export const products: Product[] = [
     category: 'hojicha',
     productType: 'powder',
     images: [
-      { src: '/images/products/hojicha-powder-1.jpg', alt: 'Hojicha powder in a warm brown ceramic bowl' },
-      { src: '/images/products/hojicha-powder-2.jpg', alt: 'Hojicha tin with warm tones' },
+      { src: '/images/products/hojicha-powder-1.svg', alt: 'Hojicha powder in a warm brown ceramic bowl' },
+      { src: '/images/products/hojicha-powder-2.svg', alt: 'Hojicha tin with warm tones' },
     ],
     variants: [
       { id: 'hp-30g', name: '30 g', price: 109000, sku: 'YUN-HP-30', available: true, inventory: 45 },
@@ -107,8 +107,8 @@ export const products: Product[] = [
     category: 'blends',
     productType: 'blend',
     images: [
-      { src: '/images/products/strawberry-matcha-1.jpg', alt: 'Pink strawberry matcha served over ice in a glass' },
-      { src: '/images/products/strawberry-matcha-2.jpg', alt: 'Strawberry matcha blend tin' },
+      { src: '/images/products/strawberry-matcha-1.svg', alt: 'Pink strawberry matcha served over ice in a glass' },
+      { src: '/images/products/strawberry-matcha-2.svg', alt: 'Strawberry matcha blend tin' },
     ],
     variants: [
       { id: 'sm-50g', name: '50 g', price: 149000, sku: 'YUN-SM-50', available: true, inventory: 60 },
@@ -136,7 +136,7 @@ export const products: Product[] = [
     category: 'blends',
     productType: 'blend',
     images: [
-      { src: '/images/products/matcha-latte-blend-1.jpg', alt: 'Matcha latte in a ceramic cup' },
+      { src: '/images/products/matcha-latte-blend-1.svg', alt: 'Matcha latte in a ceramic cup' },
     ],
     variants: [
       { id: 'mlb-150g', name: '150 g', price: 169000, sku: 'YUN-MLB-150', available: true, inventory: 40 },
@@ -162,7 +162,7 @@ export const products: Product[] = [
     category: 'blends',
     productType: 'blend',
     images: [
-      { src: '/images/products/hojicha-latte-blend-1.jpg', alt: 'Hojicha latte in a warm ceramic mug' },
+      { src: '/images/products/hojicha-latte-blend-1.svg', alt: 'Hojicha latte in a warm ceramic mug' },
     ],
     variants: [
       { id: 'hlb-150g', name: '150 g', price: 159000, sku: 'YUN-HLB-150', available: true, inventory: 35 },
@@ -189,7 +189,7 @@ export const products: Product[] = [
     category: 'accessories',
     productType: 'accessory',
     images: [
-      { src: '/images/products/bamboo-chasen-1.jpg', alt: 'Bamboo matcha whisk on natural wood surface' },
+      { src: '/images/products/bamboo-chasen-1.svg', alt: 'Bamboo matcha whisk on natural wood surface' },
     ],
     variants: [
       { id: 'bc-1', name: 'Natural Bamboo', price: 159000, sku: 'YUN-BC-1', available: true, inventory: 70 },
@@ -211,7 +211,7 @@ export const products: Product[] = [
     category: 'accessories',
     productType: 'glassware',
     images: [
-      { src: '/images/products/matcha-bowl-1.jpg', alt: 'Pale green ceramic matcha bowl' },
+      { src: '/images/products/matcha-bowl-1.svg', alt: 'Pale green ceramic matcha bowl' },
     ],
     variants: [
       { id: 'mb-ivory', name: 'Warm Ivory', price: 189000, sku: 'YUN-MB-IVR', available: true, inventory: 25 },
@@ -232,7 +232,7 @@ export const products: Product[] = [
     category: 'accessories',
     productType: 'glassware',
     images: [
-      { src: '/images/products/glass-latte-cup-1.jpg', alt: 'Clear glass latte cup with layered matcha latte' },
+      { src: '/images/products/glass-latte-cup-1.svg', alt: 'Clear glass latte cup with layered matcha latte' },
     ],
     variants: [
       { id: 'glc-350', name: '350 ml', price: 149000, sku: 'YUN-GLC-350', available: true, inventory: 40 },
@@ -253,7 +253,7 @@ export const products: Product[] = [
     category: 'gifts',
     productType: 'kit',
     images: [
-      { src: '/images/products/matcha-starter-kit-1.jpg', alt: 'Matcha starter kit laid flat — bowl, whisk, matcha tin' },
+      { src: '/images/products/matcha-starter-kit-1.svg', alt: 'Matcha starter kit laid flat — bowl, whisk, matcha tin' },
     ],
     variants: [
       {
@@ -282,7 +282,7 @@ export const products: Product[] = [
     category: 'gifts',
     productType: 'gift-set',
     images: [
-      { src: '/images/products/hojicha-gift-set-1.jpg', alt: 'Hojicha gift set with tin and glass cup' },
+      { src: '/images/products/hojicha-gift-set-1.svg', alt: 'Hojicha gift set with tin and glass cup' },
     ],
     variants: [
       {
@@ -310,7 +310,7 @@ export const products: Product[] = [
     category: 'gifts',
     productType: 'gift-set',
     images: [
-      { src: '/images/products/discovery-set-1.jpg', alt: 'Two tea tins side by side in a gift box' },
+      { src: '/images/products/discovery-set-1.svg', alt: 'Two tea tins side by side in a gift box' },
     ],
     variants: [
       {
@@ -336,7 +336,7 @@ export const categories: Category[] = [
     name: 'Matcha',
     description: 'Ceremonial and everyday matcha from Uji and Kagoshima.',
     href: '/matcha',
-    image: '/images/categories/matcha.jpg',
+    image: '/images/categories/matcha.svg',
     accent: '#626A43',
   },
   {
@@ -344,7 +344,7 @@ export const categories: Category[] = [
     name: 'Hojicha',
     description: 'Roasted Japanese green tea, warm and low in caffeine.',
     href: '/hojicha',
-    image: '/images/categories/hojicha.jpg',
+    image: '/images/categories/hojicha.svg',
     accent: '#76563E',
   },
   {
@@ -352,7 +352,7 @@ export const categories: Category[] = [
     name: 'Blends',
     description: 'Creative matcha and hojicha blends for every occasion.',
     href: '/blends',
-    image: '/images/categories/blends.jpg',
+    image: '/images/categories/blends.svg',
     accent: '#D98C98',
   },
   {
@@ -360,7 +360,7 @@ export const categories: Category[] = [
     name: 'Tools & Glassware',
     description: 'Bamboo whisks, ceramic bowls, and glass cups.',
     href: '/accessories',
-    image: '/images/categories/accessories.jpg',
+    image: '/images/categories/accessories.svg',
     accent: '#AA9068',
   },
   {
@@ -368,7 +368,7 @@ export const categories: Category[] = [
     name: 'Gift Sets',
     description: 'Beautifully packaged sets for every occasion.',
     href: '/gifts',
-    image: '/images/categories/gifts.jpg',
+    image: '/images/categories/gifts.svg',
     accent: '#292925',
   },
 ];
