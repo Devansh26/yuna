@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand Colours */
+  --color-ivory: #F6F3EC;
+  --color-porcelain: #FCFAF6;
+  --color-charcoal: #292925;
+  --color-matcha: #626A43;
+  --color-tea-green: #343D2D;
+  --color-hojicha: #76563E;
+  --color-stone: #DCD6CA;
+  --color-bronze: #AA9068;
+  --color-pink: #D98C98;
+  --color-cream-mid: #EDE8DC;
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  /* Spacing scale */
+  --spacing-section: 5rem;
+  --spacing-section-lg: 8rem;
+}
+
+:root {
+  --background: #FCFAF6;
+  --foreground: #292925;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Serif utility */
+.font-serif {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Editorial text treatments */
+.text-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+/* YUNA wordmark */
+.wordmark {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+}
+
+/* Smooth image loading */
+img {
+  display: block;
+}
+
+/* Cart badge animation */
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+.animate-pop {
+  animation: pop 0.2s ease-out;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #F6F3EC;
+}
+::-webkit-scrollbar-thumb {
+  background: #DCD6CA;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #AA9068;
+}
+
+/* Line clamp utilities */
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
